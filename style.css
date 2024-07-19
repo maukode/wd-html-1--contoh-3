@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav ul {
+    text-align: center;
+}
+
+.topnav li {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: #f2f2f2;
+
+}
+
+.topnav li:hover {
+    background-color: #ddd;
+}
+
+.topnav a:hover {
+    color: black;
+
+}
+
+img {
+    border-radius: 50%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.tentang {
+    margin: 5%;
+    text-align: center;
+}
+
+.kontak {
+    margin: 5%;
+    text-align: center;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+#laj:hover {
+    cursor: pointer;
+    font-size: 72pt;
+}
+
+footer p {
+    text-align: center;
+}
